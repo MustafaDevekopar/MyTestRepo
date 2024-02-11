@@ -1,4 +1,23 @@
 body{
-    background-color: bisque;
-    color: black;
+    background-color: rgb(5, 5, 71);
+    color: burlywood;
+}
+.hero {
+    display: flex;
+}
+.hero .left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hero .left button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(209, 27, 27);
+    color: white;
+}
+.hero .right{
+    flex:1;
 }
